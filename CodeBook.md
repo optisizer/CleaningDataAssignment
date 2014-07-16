@@ -9,7 +9,7 @@ with both original and new names.
 
 The assignment recommended the following step by step process:
 
-Create one R script called run_analysis.R that does the following.
+Create one R script called run_analysis.R that does the following:
   1. Merges the training and the test sets to create one data set.
   2. Extracts only the measurements on the mean and standard deviation for each measurement. 
   3. Uses descriptive activity names to name the activities in the data set
@@ -37,6 +37,7 @@ Step 1 – Downloading the data
   * Unzip file into directory
 
 Step 2 – Select what to read into R
+
 Reading through the downloaded data and its documentation, we find in the Readme.txt file that we need to read
 the following files into R:
 
@@ -57,16 +58,16 @@ Step 3 – Reading the features.txt file
     - Find correct columns and place in a vector named itemselect.
     - Shorten the data frame featurelist by subsetting according to the itemselect vector
   * Perform additional name structuring of the items in the modified featurelist (in accordance with assignment step 4) 
-  Note: Based on the CamelCasing principle for readability, as opposed to course guidelines, which suggests lower
-  case only
-  Note: Also correcting what I assume is a typing error (the phrase “BodyBody” appears in the featurelist, but not in
-  the documentation, I have assumed it should say just “Body”)
+
+Note: Based on the CamelCasing principle for readability, as opposed to course guidelines, which suggests lower case only
+Note: Also correcting what I assume is a typing error (the phrase “BodyBody” appears in the featurelist, but not in the documentation, I have assumed it should say just “Body”)
 
 Step 4 – Reading the X_train.txt and the X_test.txt files
   * Read the train and test sets into individual data frames, named trainset and testset, selecting only columns from
   the itemselect vector (in accordance with assignment step 2)
   * “Merge" the two data frames (in accordance with assignment step 1) into one data frame named combinedset
-  Note: "Merge" is a misnomer here as we are not truly merging on any shared info or id-key, only combining
+
+Note: "Merge" is a misnomer here as we are not truly merging on any shared info or id-key, only combining
 
 Step 5 – Reading the Y_train.txt and the Y_test.txt files
   * Read the activity levels for the train and test sets, one column each, and place into data frames trainlevels
@@ -88,7 +89,8 @@ Step 7 – Combining the created data frames
   combinedset                               Se table at end of document, for original and new names
 
   * Check for and remove any rows with un-complete cases
-  Note: Not possible at any earlier stage as that would have interrupted the alignment between the data frames
+
+Note: Not possible at any earlier stage as that would have interrupted the alignment between the data frames
 
 Step 8 – Factorize columns in totaldata
   * Read the activity_labels.txt file, which assigns spelled out activities to the numbered levels in the Y_train.txt
@@ -99,7 +101,9 @@ Step 8 – Factorize columns in totaldata
   * Factorize column TestSubjectIdNumber
 
 Step 9 – Calculate averages of each variable for each activity and each subject
+
 (in accordance with assignment step 5)
+
 Discussion: I like working with loops, as it helps me understand the process intuitively. Therefore I have chosen not
 to work with any of the commandline loop functions, such as lapply, tapply, etc. Further, I once read in the help
 files, but can’t remember where, that it is recommended not to use commandline loops in programmed code. To begin:
