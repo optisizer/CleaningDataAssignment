@@ -163,56 +163,56 @@ List of variable names
   * It is unclear from the original documentation as to what are the measured units, but as the data also are normalized
   I have assumed they are simply unit-less values in the range -1 to 1.
 
-tBodyAcc-mean()-X                 TimeSignalFromBodyAccelerometerDataMeanValueInTheXplane
-tBodyAcc-mean()-Y                 TimeSignalFromBodyAccelerometerDataMeanValueInTheYplane
-tBodyAcc-mean()-Z                 TimeSignalFromBodyAccelerometerDataMeanValueInTheZplane
-tBodyAcc-std()-X                  TimeSignalFromBodyAccelerometerDataStandardDeviationValueInTheXplane
-tBodyAcc-std()-Y                  TimeSignalFromBodyAccelerometerDataStandardDeviationValueInTheYplane
-tBodyAcc-std()-Z                  TimeSignalFromBodyAccelerometerDataStandardDeviationValueInTheZplane
-tGravityAcc-mean()-X              TimeSignalFromGravityAccelerometerDataMeanValueInTheXplane
-tGravityAcc-mean()-Y              TimeSignalFromGravityAccelerometerDataMeanValueInTheYplane
-tGravityAcc-mean()-Z              TimeSignalFromGravityAccelerometerDataMeanValueInTheZplane
-tGravityAcc-std()-X               TimeSignalFromGravityAccelerometerDataStandardDeviationValueInTheXplane
-tGravityAcc-std()-Y               TimeSignalFromGravityAccelerometerDataStandardDeviationValueInTheYplane
-tGravityAcc-std()-Z               TimeSignalFromGravityAccelerometerDataStandardDeviationValueInTheZplane
-tBodyAccJerk-mean()-X             TimeSignalFromBodyAccelerometerDataOfJerkMoveMeanValueInTheXplane
-tBodyAccJerk-mean()-Y             TimeSignalFromBodyAccelerometerDataOfJerkMoveMeanValueInTheYplane
-tBodyAccJerk-mean()-Z             TimeSignalFromBodyAccelerometerDataOfJerkMoveMeanValueInTheZplane
-tBodyAccJerk-std()-X              TimeSignalFromBodyAccelerometerDataOfJerkMoveStandardDeviationValueInTheXplane
-tBodyAccJerk-std()-Y              TimeSignalFromBodyAccelerometerDataOfJerkMoveStandardDeviationValueInTheYplane
-tBodyAccJerk-std()-Z              TimeSignalFromBodyAccelerometerDataOfJerkMoveStandardDeviationValueInTheZplane
-tBodyGyro-mean()-X                TimeSignalFromBodyGyroscopeDataMeanValueInTheXplane
-tBodyGyro-mean()-Y                TimeSignalFromBodyGyroscopeDataMeanValueInTheYplane
-tBodyGyro-mean()-Z                TimeSignalFromBodyGyroscopeDataMeanValueInTheZplane
-tBodyGyro-std()-X                 TimeSignalFromBodyGyroscopeDataStandardDeviationValueInTheXplane
-tBodyGyro-std()-Y                 TimeSignalFromBodyGyroscopeDataStandardDeviationValueInTheYplane
-tBodyGyro-std()-Z                 TimeSignalFromBodyGyroscopeDataStandardDeviationValueInTheZplane
-tBodyGyroJerk-mean()-X            TimeSignalFromBodyGyroscopeDataOfJerkMoveMeanValueInTheXplane
-tBodyGyroJerk-mean()-Y            TimeSignalFromBodyGyroscopeDataOfJerkMoveMeanValueInTheYplane
-tBodyGyroJerk-mean()-Z            TimeSignalFromBodyGyroscopeDataOfJerkMoveMeanValueInTheZplane
-tBodyGyroJerk-std()-X             TimeSignalFromBodyGyroscopeDataOfJerkMoveStandardDeviationValueInTheXplane
-tBodyGyroJerk-std()-Y             TimeSignalFromBodyGyroscopeDataOfJerkMoveStandardDeviationValueInTheYplane
-tBodyGyroJerk-std()-Z             TimeSignalFromBodyGyroscopeDataOfJerkMoveStandardDeviationValueInTheZplane
-tBodyAccMag-mean()                TimeSignalFromBodyAccelerometerDataMagnitudeMeanValue
-tBodyAccMag-std()                 TimeSignalFromBodyAccelerometerDataMagnitudeStandardDeviationValue
-tGravityAccMag-mean()             TimeSignalFromGravityAccelerometerDataMagnitudeMeanValue
-tGravityAccMag-std()              TimeSignalFromGravityAccelerometerDataMagnitudeStandardDeviationValue
-tBodyAccJerkMag-mean()            TimeSignalFromBodyAccelerometerDataOfJerkMoveMagnitudeMeanValue
-tBodyAccJerkMag-std()             TimeSignalFromBodyAccelerometerDataOfJerkMoveMagnitudeStandardDeviationValue
-tBodyGyroMag-mean()               TimeSignalFromBodyGyroscopeDataMagnitudeMeanValue
-tBodyGyroMag-std()                TimeSignalFromBodyGyroscopeDataMagnitudeStandardDeviationValue
-tBodyGyroJerkMag-mean()           TimeSignalFromBodyGyroscopeDataOfJerkMoveMagnitudeMeanValue
-tBodyGyroJerkMag-std()            TimeSignalFromBodyGyroscopeDataOfJerkMoveMagnitudeStandardDeviationValue
-fBodyAcc-mean()-X                 FrequencySignalFromBodyAccelerometerDataMeanValueInTheXplane
-fBodyAcc-mean()-Y                 FrequencySignalFromBodyAccelerometerDataMeanValueInTheYplane
-fBodyAcc-mean()-Z                 FrequencySignalFromBodyAccelerometerDataMeanValueInTheZplane
-fBodyAcc-std()-X                  FrequencySignalFromBodyAccelerometerDataStandardDeviationValueInTheXplane
-fBodyAcc-std()-Y                  FrequencySignalFromBodyAccelerometerDataStandardDeviationValueInTheYplane
-fBodyAcc-std()-Z                  FrequencySignalFromBodyAccelerometerDataStandardDeviationValueInTheZplane
-fBodyAccJerk-mean()-X             FrequencySignalFromBodyAccelerometerDataOfJerkMoveMeanValueInTheXplane
-fBodyAccJerk-mean()-Y             FrequencySignalFromBodyAccelerometerDataOfJerkMoveMeanValueInTheYplane
-fBodyAccJerk-mean()-Z             FrequencySignalFromBodyAccelerometerDataOfJerkMoveMeanValueInTheZplane
-fBodyAccJerk-std()-X              FrequencySignalFromBodyAccelerometerDataOfJerkMoveStandardDeviationValueInTheXplane
+* tBodyAcc-mean()-X                 TimeSignalFromBodyAccelerometerDataMeanValueInTheXplane
+* tBodyAcc-mean()-Y                 TimeSignalFromBodyAccelerometerDataMeanValueInTheYplane
+* tBodyAcc-mean()-Z                 TimeSignalFromBodyAccelerometerDataMeanValueInTheZplane
+* tBodyAcc-std()-X                  TimeSignalFromBodyAccelerometerDataStandardDeviationValueInTheXplane
+* tBodyAcc-std()-Y                  TimeSignalFromBodyAccelerometerDataStandardDeviationValueInTheYplane
+* tBodyAcc-std()-Z                  TimeSignalFromBodyAccelerometerDataStandardDeviationValueInTheZplane
+* tGravityAcc-mean()-X              TimeSignalFromGravityAccelerometerDataMeanValueInTheXplane
+* tGravityAcc-mean()-Y              TimeSignalFromGravityAccelerometerDataMeanValueInTheYplane
+* tGravityAcc-mean()-Z              TimeSignalFromGravityAccelerometerDataMeanValueInTheZplane
+* tGravityAcc-std()-X               TimeSignalFromGravityAccelerometerDataStandardDeviationValueInTheXplane
+* tGravityAcc-std()-Y               TimeSignalFromGravityAccelerometerDataStandardDeviationValueInTheYplane
+* tGravityAcc-std()-Z               TimeSignalFromGravityAccelerometerDataStandardDeviationValueInTheZplane
+* tBodyAccJerk-mean()-X             TimeSignalFromBodyAccelerometerDataOfJerkMoveMeanValueInTheXplane
+* tBodyAccJerk-mean()-Y             TimeSignalFromBodyAccelerometerDataOfJerkMoveMeanValueInTheYplane
+* tBodyAccJerk-mean()-Z             TimeSignalFromBodyAccelerometerDataOfJerkMoveMeanValueInTheZplane
+* tBodyAccJerk-std()-X              TimeSignalFromBodyAccelerometerDataOfJerkMoveStandardDeviationValueInTheXplane
+* tBodyAccJerk-std()-Y              TimeSignalFromBodyAccelerometerDataOfJerkMoveStandardDeviationValueInTheYplane
+* tBodyAccJerk-std()-Z              TimeSignalFromBodyAccelerometerDataOfJerkMoveStandardDeviationValueInTheZplane
+* tBodyGyro-mean()-X                TimeSignalFromBodyGyroscopeDataMeanValueInTheXplane
+* tBodyGyro-mean()-Y                TimeSignalFromBodyGyroscopeDataMeanValueInTheYplane
+* tBodyGyro-mean()-Z                TimeSignalFromBodyGyroscopeDataMeanValueInTheZplane
+* tBodyGyro-std()-X                 TimeSignalFromBodyGyroscopeDataStandardDeviationValueInTheXplane
+* tBodyGyro-std()-Y                 TimeSignalFromBodyGyroscopeDataStandardDeviationValueInTheYplane
+* tBodyGyro-std()-Z                 TimeSignalFromBodyGyroscopeDataStandardDeviationValueInTheZplane
+* tBodyGyroJerk-mean()-X            TimeSignalFromBodyGyroscopeDataOfJerkMoveMeanValueInTheXplane
+* tBodyGyroJerk-mean()-Y            TimeSignalFromBodyGyroscopeDataOfJerkMoveMeanValueInTheYplane
+* tBodyGyroJerk-mean()-Z            TimeSignalFromBodyGyroscopeDataOfJerkMoveMeanValueInTheZplane
+* tBodyGyroJerk-std()-X             TimeSignalFromBodyGyroscopeDataOfJerkMoveStandardDeviationValueInTheXplane
+* tBodyGyroJerk-std()-Y             TimeSignalFromBodyGyroscopeDataOfJerkMoveStandardDeviationValueInTheYplane
+* tBodyGyroJerk-std()-Z             TimeSignalFromBodyGyroscopeDataOfJerkMoveStandardDeviationValueInTheZplane
+* tBodyAccMag-mean()                TimeSignalFromBodyAccelerometerDataMagnitudeMeanValue
+* tBodyAccMag-std()                 TimeSignalFromBodyAccelerometerDataMagnitudeStandardDeviationValue
+* tGravityAccMag-mean()             TimeSignalFromGravityAccelerometerDataMagnitudeMeanValue
+* tGravityAccMag-std()              TimeSignalFromGravityAccelerometerDataMagnitudeStandardDeviationValue
+* tBodyAccJerkMag-mean()            TimeSignalFromBodyAccelerometerDataOfJerkMoveMagnitudeMeanValue
+* tBodyAccJerkMag-std() ==  TimeSignalFromBodyAccelerometerDataOfJerkMoveMagnitudeStandardDeviationValue
+* tBodyGyroMag-mean() ==  TimeSignalFromBodyGyroscopeDataMagnitudeMeanValue
+* tBodyGyroMag-std()  ==  TimeSignalFromBodyGyroscopeDataMagnitudeStandardDeviationValue
+* tBodyGyroJerkMag-mean() ==  TimeSignalFromBodyGyroscopeDataOfJerkMoveMagnitudeMeanValue
+* tBodyGyroJerkMag-std()  ==  TimeSignalFromBodyGyroscopeDataOfJerkMoveMagnitudeStandardDeviationValue
+* fBodyAcc-mean()-X ==  FrequencySignalFromBodyAccelerometerDataMeanValueInTheXplane
+* fBodyAcc-mean()-Y ==  FrequencySignalFromBodyAccelerometerDataMeanValueInTheYplane
+* fBodyAcc-mean()-Z ==  FrequencySignalFromBodyAccelerometerDataMeanValueInTheZplane
+* fBodyAcc-std()-X  ==  FrequencySignalFromBodyAccelerometerDataStandardDeviationValueInTheXplane
+* fBodyAcc-std()-Y  ==  FrequencySignalFromBodyAccelerometerDataStandardDeviationValueInTheYplane
+* fBodyAcc-std()-Z  ==  FrequencySignalFromBodyAccelerometerDataStandardDeviationValueInTheZplane
+* fBodyAccJerk-mean()-X ==  FrequencySignalFromBodyAccelerometerDataOfJerkMoveMeanValueInTheXplane
+* fBodyAccJerk-mean()-Y ==  FrequencySignalFromBodyAccelerometerDataOfJerkMoveMeanValueInTheYplane
+* fBodyAccJerk-mean()-Z ==  FrequencySignalFromBodyAccelerometerDataOfJerkMoveMeanValueInTheZplane
+* fBodyAccJerk-std()-X  ==  FrequencySignalFromBodyAccelerometerDataOfJerkMoveStandardDeviationValueInTheXplane
 * fBodyAccJerk-std()-Y  ==  FrequencySignalFromBodyAccelerometerDataOfJerkMoveStandardDeviationValueInTheYplane
 * fBodyAccJerk-std()-Z  ==  FrequencySignalFromBodyAccelerometerDataOfJerkMoveStandardDeviationValueInTheZplane
 * fBodyGyro-mean()-X  ==  FrequencySignalFromBodyGyroscopeDataMeanValueInTheXplane
