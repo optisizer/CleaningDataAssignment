@@ -213,19 +213,19 @@ fBodyAccJerk-mean()-X             FrequencySignalFromBodyAccelerometerDataOfJerk
 fBodyAccJerk-mean()-Y             FrequencySignalFromBodyAccelerometerDataOfJerkMoveMeanValueInTheYplane
 fBodyAccJerk-mean()-Z             FrequencySignalFromBodyAccelerometerDataOfJerkMoveMeanValueInTheZplane
 fBodyAccJerk-std()-X              FrequencySignalFromBodyAccelerometerDataOfJerkMoveStandardDeviationValueInTheXplane
-fBodyAccJerk-std()-Y              FrequencySignalFromBodyAccelerometerDataOfJerkMoveStandardDeviationValueInTheYplane
-fBodyAccJerk-std()-Z              FrequencySignalFromBodyAccelerometerDataOfJerkMoveStandardDeviationValueInTheZplane
-fBodyGyro-mean()-X                FrequencySignalFromBodyGyroscopeDataMeanValueInTheXplane
-fBodyGyro-mean()-Y                FrequencySignalFromBodyGyroscopeDataMeanValueInTheYplane
-fBodyGyro-mean()-Z                FrequencySignalFromBodyGyroscopeDataMeanValueInTheZplane
-fBodyGyro-std()-X                 FrequencySignalFromBodyGyroscopeDataStandardDeviationValueInTheXplane
-fBodyGyro-std()-Y                 FrequencySignalFromBodyGyroscopeDataStandardDeviationValueInTheYplane
-fBodyGyro-std()-Z                 FrequencySignalFromBodyGyroscopeDataStandardDeviationValueInTheZplane
-fBodyAccMag-mean()                FrequencySignalFromBodyAccelerometerDataMagnitudeMeanValue
-fBodyAccMag-std()                 FrequencySignalFromBodyAccelerometerDataMagnitudeStandardDeviationValue
-* fBodyBodyAccJerkMag-mean()  FrequencySignalFromBodyAccelerometerDataOfJerkMoveMagnitudeMeanValue
-* fBodyBodyAccJerkMag-std()   FrequencySignalFromBodyAccelerometerDataOfJerkMoveMagnitudeStandardDeviationValue
-* fBodyBodyGyroMag-mean()     FrequencySignalFromBodyGyroscopeDataMagnitudeMeanValue
-* fBodyBodyGyroMag-std()      FrequencySignalFromBodyGyroscopeDataMagnitudeStandardDeviationValue
-* fBodyBodyGyroJerkMag-mean() FrequencySignalFromBodyGyroscopeDataOfJerkMoveMagnitudeMeanValue
-* fBodyBodyGyroJerkMag-std()  FrequencySignalFromBodyGyroscopeDataOfJerkMoveMagnitudeStandardDeviationValue"
+fBodyAccJerk-std()-Y  ==  FrequencySignalFromBodyAccelerometerDataOfJerkMoveStandardDeviationValueInTheYplane
+fBodyAccJerk-std()-Z  ==  FrequencySignalFromBodyAccelerometerDataOfJerkMoveStandardDeviationValueInTheZplane
+fBodyGyro-mean()-X  ==  FrequencySignalFromBodyGyroscopeDataMeanValueInTheXplane
+fBodyGyro-mean()-Y  ==  FrequencySignalFromBodyGyroscopeDataMeanValueInTheYplane
+fBodyGyro-mean()-Z  ==  FrequencySignalFromBodyGyroscopeDataMeanValueInTheZplane
+fBodyGyro-std()-X ==  FrequencySignalFromBodyGyroscopeDataStandardDeviationValueInTheXplane
+fBodyGyro-std()-Y ==  FrequencySignalFromBodyGyroscopeDataStandardDeviationValueInTheYplane
+fBodyGyro-std()-Z ==  FrequencySignalFromBodyGyroscopeDataStandardDeviationValueInTheZplane
+* fBodyAccMag-mean()  ==  FrequencySignalFromBodyAccelerometerDataMagnitudeMeanValue
+* fBodyAccMag-std() ==  FrequencySignalFromBodyAccelerometerDataMagnitudeStandardDeviationValue
+* fBodyBodyAccJerkMag-mean()  ==  FrequencySignalFromBodyAccelerometerDataOfJerkMoveMagnitudeMeanValue
+* fBodyBodyAccJerkMag-std() ==  FrequencySignalFromBodyAccelerometerDataOfJerkMoveMagnitudeStandardDeviationValue
+* fBodyBodyGyroMag-mean() ==  FrequencySignalFromBodyGyroscopeDataMagnitudeMeanValue
+* fBodyBodyGyroMag-std()    FrequencySignalFromBodyGyroscopeDataMagnitudeStandardDeviationValue
+* fBodyBodyGyroJerkMag-mean()   FrequencySignalFromBodyGyroscopeDataOfJerkMoveMagnitudeMeanValue
+* fBodyBodyGyroJerkMag-std()    FrequencySignalFromBodyGyroscopeDataOfJerkMoveMagnitudeStandardDeviationValue"
