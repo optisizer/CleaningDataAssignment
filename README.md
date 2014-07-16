@@ -1,6 +1,6 @@
 CleaningDataAssignment
 ======================
-The r script and codebook for Data Science, Exploratory Data Course, Week 3
+The r script and codebook for Data Science, Getting and Cleaning Data Course, Week 3
 
 There is only one script. It is named: run_analysis.R
 
