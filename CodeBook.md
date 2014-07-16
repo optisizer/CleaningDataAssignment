@@ -83,10 +83,7 @@ Step 7 – Combining the created data frames
   * Combine all combined- data frames created into one main data frame called totaldata
   * Name the columns in data frame totaldata (again based on the CamelCasing principle):
 
-  * Data frame origin             Column name in totaldata
-  * combinedlevels                TypeOfHumanActivity
-  * combinedsubjects              TestSubjectIdNumber
-  * combinedset                   Se table at end of document, for original and new names
+Data frame originColumn name in totaldatacombinedlevelsTypeOfHumanActivitycombinedsubjectsTestSubjectIdNumbercombinedsetSe table at end of document, for original and new names
 
   * Check for and remove any rows with un-complete cases
     - Note: Not possible at any earlier stage as that would have interrupted the alignment between the data frames
@@ -156,7 +153,8 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals.
 List of variable names
 
   * Derived from the features.txt file
-  * Applied to the combinedset and collectedaverages data frames
+  * Original names are restructured to new names in Step 3, above
+  * Applied to the totaldata and collectedaverages data frames
   * The actual data have previously been derived from the X_train.txt and X_test.txt files
   * Reading the list below, the original names to the left, the new names to the right, separated by ==
   * Because of their length, the new names are based on the CamelCasing principle for readability. This is not in line
