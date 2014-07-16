@@ -10,11 +10,11 @@ with both original and new names.
 The assignment recommended the following step by step process:
 
 Create one R script called run_analysis.R that does the following.
-  1) Merges the training and the test sets to create one data set.
-  2) Extracts only the measurements on the mean and standard deviation for each measurement. 
-  3) Uses descriptive activity names to name the activities in the data set
-  4) Appropriately labels the data set with descriptive variable names. 
-  5) Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+  1. Merges the training and the test sets to create one data set.
+  2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+  3. Uses descriptive activity names to name the activities in the data set
+  4.  Appropriately labels the data set with descriptive variable names. 
+  5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 Simultaneously a code book (this document), called CodeBook.md, should be created that:
   * describes the variables
   * the data
@@ -222,9 +222,9 @@ fBodyGyro-std()-Y                 FrequencySignalFromBodyGyroscopeDataStandardDe
 fBodyGyro-std()-Z                 FrequencySignalFromBodyGyroscopeDataStandardDeviationValueInTheZplane
 fBodyAccMag-mean()                FrequencySignalFromBodyAccelerometerDataMagnitudeMeanValue
 fBodyAccMag-std()                 FrequencySignalFromBodyAccelerometerDataMagnitudeStandardDeviationValue
-fBodyBodyAccJerkMag-mean()        FrequencySignalFromBodyAccelerometerDataOfJerkMoveMagnitudeMeanValue
-fBodyBodyAccJerkMag-std()         FrequencySignalFromBodyAccelerometerDataOfJerkMoveMagnitudeStandardDeviationValue
-fBodyBodyGyroMag-mean()           FrequencySignalFromBodyGyroscopeDataMagnitudeMeanValue
-fBodyBodyGyroMag-std()            FrequencySignalFromBodyGyroscopeDataMagnitudeStandardDeviationValue
-fBodyBodyGyroJerkMag-mean()       FrequencySignalFromBodyGyroscopeDataOfJerkMoveMagnitudeMeanValue
-fBodyBodyGyroJerkMag-std()        FrequencySignalFromBodyGyroscopeDataOfJerkMoveMagnitudeStandardDeviationValue"
+* fBodyBodyAccJerkMag-mean()  FrequencySignalFromBodyAccelerometerDataOfJerkMoveMagnitudeMeanValue
+* fBodyBodyAccJerkMag-std()   FrequencySignalFromBodyAccelerometerDataOfJerkMoveMagnitudeStandardDeviationValue
+* fBodyBodyGyroMag-mean()     FrequencySignalFromBodyGyroscopeDataMagnitudeMeanValue
+* fBodyBodyGyroMag-std()      FrequencySignalFromBodyGyroscopeDataMagnitudeStandardDeviationValue
+* fBodyBodyGyroJerkMag-mean() FrequencySignalFromBodyGyroscopeDataOfJerkMoveMagnitudeMeanValue
+* fBodyBodyGyroJerkMag-std()  FrequencySignalFromBodyGyroscopeDataOfJerkMoveMagnitudeStandardDeviationValue"
