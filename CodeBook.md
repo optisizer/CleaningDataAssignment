@@ -28,7 +28,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals.
 
 ##Table of how column names in the data frame totaldata relates to the original data frames, holding the data:
  * Relating to Step 7, in the readme file
-    - DATA FRAME ORIGIN ==  COLUMN NAME IN totaldata
+####    - DATA FRAME ORIGIN ==  COLUMN NAME IN totaldata
     - combinedlevels  ==  TypeOfHumanActivity
     - combinedsubjects  ==  TestSubjectIdNumber
     - combinedset ==  Se table below, for original and new names
