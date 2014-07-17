@@ -10,8 +10,6 @@ The script follows exactly the step by step process outlined in the codebook
 
 The script is also properly annotated in a step by step fashion, so it too should work as an instruction list
 
-The tidy table can be downloaded as a csv text file from: 
-
 For any additional information I refer you to either the script or the codebook
 
 Discussion:
