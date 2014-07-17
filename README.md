@@ -112,8 +112,7 @@ Step 9 – Calculate averages of each variable for each activity and each subjec
 (in accordance with assignment step 5)
 
 Discussion: I like working with loops, as it helps me understand the process intuitively. Therefore I have chosen not
-to work with any of the commandline loop functions, such as lapply, tapply, etc. Further, I once read in the help
-files, but can’t remember where, that it is recommended not to use commandline loops in programmed code. To begin:
+to work with any of the commandline loop functions, such as lapply, tapply, etc. Further, I think I read somewhere, but can’t remember where, that it is recommended not to use commandline loops in programmed code. To begin:
 
   * Create empty data frame named collectedaverages
   * Split data frame totaldata according to factorized variable TypeOfHumanActivity
