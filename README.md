@@ -132,3 +132,7 @@ to work with any of the commandline loop functions, such as lapply, tapply, etc.
 Step 10 – Saving data to file
   * Save the data frame collectedaverages to a comma separated text file named TidyAverageAccelerometerData.csv
   in your working directory
+  * The file will contain a wide table, easily readable in Excel, with:
+    - all activities grouped one by one
+    - all test subjects listed sequentially for each activity
+    - followed by all calculated variables
