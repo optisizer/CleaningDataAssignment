@@ -11,7 +11,6 @@ The script is also properly annotated in a step by step fashion, so it too shoul
 For any additional information I refer you to either the script or the codebook
 
 #Introduction
-
 This assignment consisted of cleaning up the data, renaming variables and calculating averages from an experiment
 on “Human Activity Recognition Using Smartphones”. Then create a tidy table and upload to Coursera a text file
 containing the created table, together with some accompanying documentation (such as this readme file) and an R script
@@ -20,7 +19,6 @@ found in the codebook. Also in the codebook is a complete list of variables in t
 and new names.
 
 ##The assignment recommended the following step by step process:
-
 Create one R script called run_analysis.R that does the following:
   1. Merges the training and the test sets to create one data set.
   2. Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -34,7 +32,7 @@ Simultaneously a code book, called CodeBook.md, should be created that describes
   * any transformational work
   * the process to clean up the data
 
-To read the text file with the table into R
+###To read the text file with the table into R
   * Make sure it's in your working directory
   * In the console window, simply type: read.csv("TheNameOfTheFile.csv")
     - No other arguments for the read.csv function should be necessary
