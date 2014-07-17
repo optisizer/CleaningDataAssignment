@@ -1,4 +1,3 @@
-
 Original experiment description
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each
@@ -26,10 +25,17 @@ the magnitude of these three-dimensional signals were calculated using the Eucli
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals.
 
+Table of how column names in the data fram totaldata relates to the original data frames, holding the data:
+ * Relating to Step 7, in the readme file
+    - DATA FRAME ORIGIN ==  COLUMN NAME IN totaldata
+    - combinedlevels  ==  TypeOfHumanActivity
+    - combinedsubjects  ==  TestSubjectIdNumber
+    - combinedset ==  Se table at end of document, for original and new names
+
 List of variable names
 
   * Derived from the features.txt file
-  * Original names are restructured to new names in Step 3, above
+  * Original names are restructured to new names in Step 3 in the readme file
   * Applied to the totaldata and collectedaverages data frames
   * Reading the list below, the original names to the left, the new names to the right, separated by ==
   * Because of their length, the new names are based on the CamelCasing principle for readability. This is not in line
