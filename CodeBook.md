@@ -81,12 +81,13 @@ Step 6 – Reading the subject_train.txt and the subject_test.txt files
 
 Step 7 – Combining the created data frames
   * Combine all combined- data frames created into one main data frame called totaldata
-  * Name the columns in data frame totaldata (again based on the CamelCasing principle):
-
-* Data frame origin ==  Column name in totaldata
-* combinedlevels  ==  TypeOfHumanActivity
-* combinedsubjects  ==  TestSubjectIdNumber
-* combinedset ==  Se table at end of document, for original and new names
+  * Name the columns in data frame totaldata (again based on the CamelCasing principle)
+  * How the column names relate to the data frames they came with:
+  
+    - Data frame origin         Column name in total data
+    - combinedlevels            TypeOfHumanActivity
+    - combinedsubjects          TestSubjectIdNumber
+    - combinedset               Se table at end of document, for original and new names
 
   * Check for and remove any rows with un-complete cases
     - Note: Not possible at any earlier stage as that would have interrupted the alignment between the data frames
