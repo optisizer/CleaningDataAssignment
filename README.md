@@ -36,6 +36,7 @@ Simultaneously a code book, called CodeBook.md, should be created that describes
   * Make sure it's in your working directory
   * In the console window, simply type: read.csv("TidyAverageAccelerometerData.txt")
     - No other arguments for the read.csv function should be necessary
+    - (although file is txt, it should be read properly with a minimum of arguments)
 
 ##My step by step process
 What follows is the step by step process I followed in order to complete the assignment. I have listed a few more
@@ -128,7 +129,7 @@ to work with any of the commandline loop functions, such as lapply, tapply, etc.
     frame totaldata (see step 8)
 
 ###Step 10 – Saving data to file
-  * Save the data frame collectedaverages to a comma separated text file named TidyAverageAccelerometerData.csv
+  * Save the data frame collectedaverages to a comma separated text file named TidyAverageAccelerometerData.txt
   in your working directory
   * The file will contain a wide table, easily readable in Excel, with:
     - all activities grouped one by one in the column named TypeOfHumanActivity
