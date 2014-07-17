@@ -129,7 +129,7 @@ run_analysis <- function()  {
     # Factorize variable TestSubjectIdNumber, but keep the number:
     collectedaverages$TestSubjectIdNumber <- factor(collectedaverages$TestSubjectIdNumber)
     
-    # Save table as a csv file for direct readability in Excel
+    # Save table as a comma separated txt file, so it can be read correctly with the read.csv function
     write.table(collectedaverages, file="TidyAverageAccelerometerData.txt", sep=",", row.names = FALSE)
     
     print("Done! Created file can be found in your working directory, named TidyAverageAccelerometerData.txt")
