@@ -34,7 +34,10 @@ Simultaneously a code book, called CodeBook.md, should be created that describes
   * any transformational work
   * the process to clean up the data
 
-Download and read the file
+To read the text file with the table into R
+  * Make sure it's in your working directory
+  * In the console window, simply type: read.csv("TheNameOfTheFile.csv")
+    - No other arguments for the read.csv function should be necessary
 
 My step by step process
 
