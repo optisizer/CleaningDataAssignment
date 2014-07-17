@@ -1,5 +1,5 @@
-#CodeBook
-##Original experiment description
+##CodeBook
+###Original experiment description
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each
 person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing
@@ -26,14 +26,14 @@ the magnitude of these three-dimensional signals were calculated using the Eucli
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals.
 
-##Table of how column names in the data frame totaldata relates to the original data frames, holding the data:
+###Table of how column names in the data frame totaldata relates to the original data frames, holding the data:
  * Relating to Step 7, in the readme file
     - DATA FRAME ORIGIN ==  COLUMN NAME IN totaldata
     - combinedlevels  ==  TypeOfHumanActivity
     - combinedsubjects  ==  TestSubjectIdNumber
     - combinedset ==  Se table below, for original and new names
 
-##List of variable names
+###List of variable names
 
   * These are the variables originaly read into the data frame combinedset
   * Derived from the features.txt file
