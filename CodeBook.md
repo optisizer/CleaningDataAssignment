@@ -1,4 +1,5 @@
 ##CodeBook
+(This is a permitted repost of my original assignment, made about 6 months ago. I am retaking the course awaiting the capstone project. Due to business travels I didn have time to redo the assignment.)
 ###Original experiment description
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each
