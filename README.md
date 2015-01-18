@@ -2,6 +2,8 @@ CleaningDataAssignment
 ======================
 This repository holds the R script, codebook and this readme file for Data Science, Getting and Cleaning Data Course, Assignment, Week 3
 
+(This is a permitted repost of my original assignment, made about 6 months ago. I am retaking the course awaiting the capstone project. Due to business travels I didn have time to redo the assignment.)
+
 There is only one script. It is named: run_analysis.R
 
 The script follows exactly the step by step process outlined in this readme file
